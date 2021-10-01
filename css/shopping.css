@@ -1,0 +1,185 @@
+/* Cascading stylesheet for the web page "World Peace Issue List"
+   Created by Harrison Kong
+   Copyright (C) Coursera 2020 */
+
+a {
+  color: #066FFE;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+a:disabled {
+  color: grey
+}
+
+body {
+  background-color: #E6D1AE;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.floating-button {
+  height: 2.5rem;
+  margin-top: 0.65rem;
+  width: 2.5rem;
+}
+
+.merchandise-description {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+.merchandise-hr {
+  margin-bottom: 0.3rem;
+  margin-top: 0;
+}
+
+.merchandise-image {
+  height: 8rem;
+  width: 8rem;
+  vertical-align: top;
+}
+
+.merchandise-name {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.7rem;
+  font-weight: bold;
+  line-height: 90%;
+  margin-bottom: 0.3rem;
+  margin-top: 0.1rem;
+}
+
+.merchandise-side {
+  padding-right: 2rem;
+  vertical-align: top;
+}
+
+.merchandise-table {
+  margin-bottom: 2rem;
+  padding-right: 2rem;
+  width: 100%;
+}
+
+.merchandise-table, .merchandise-table td {
+  border-collapse: collapse;
+}
+
+.merchandise-table th, .merchandise-table td {
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+  padding-top: 0;
+}
+
+.merchandise-unit-price {
+  color: #707070;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.outer-div {
+  margin: auto;
+  max-width: 95%;
+  text-align: left;
+}
+
+.page-frame {
+  margin-top: 2rem;
+}
+
+.shopping-cart-big-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.shopping-cart-checkout-footer {
+  text-align: right; 
+}
+
+.shopping-cart-header-row {
+  height: 4rem;
+  text-align: center;
+  margin-top: 0.7rem;
+  vertical-align: top;
+}
+
+.shopping-cart-item-line-total-column {
+  text-align: right;
+  width: 30%
+}
+
+.shopping-cart-item-line-name-column {
+  width: 50%;
+  text-align: left;
+}
+
+.shopping-cart-item-quantity-column {
+  width: 20%;
+  text-align: center;
+}
+
+.shopping-cart-items-section {
+  height: 17rem;
+  vertical-align: top;
+}
+
+table#shopping-cart-items-table {
+  width: 100%;
+}
+
+.shopping-cart-side {
+  border-left: gray 1px solid;
+  padding-left: 2rem;
+  vertical-align: top;
+}
+
+.shopping-cart-table {
+  width: 100%;
+}
+
+.shopping-cart-total {
+  text-align: right;
+}
+
+.shopping-cart-total-footer {
+  border-top: gray 1px solid;
+  font-weight: bold;
+  height: 4rem;
+}
+
+.top-align-cell {
+  vertical-align: top;
+}
+
+/* RESPONSIVE ADJUSTMENTS
+-------------------------------- */
+
+@media only screen and (max-width: 900px) {
+
+  .merchandise-description {
+    font-size: 0.7rem;
+  }
+
+  .merchandise-image {
+    height: 7.5rem;
+    width: 7.5rem;
+  }
+
+  .merchandise-name {
+    font-size: 1.7rem;
+  }
+
+  .merchandise-unit-price {
+    font-size: 1.2rem;
+  }
+}

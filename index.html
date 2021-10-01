@@ -1,0 +1,92 @@
+<!doctype html>
+
+<!-- Web page "Shopping"                -->
+<!-- Created by Harrison Kong           -->
+<!-- Copyright (C) Coursera 2021        -->
+
+<html lang="en">
+
+<header>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv=“Pragma” content=”no-cache”>
+<meta http-equiv=“Expires” content=”-1″>
+<meta http-equiv=“CACHE-CONTROL” content=”NO-CACHE”>
+<!-- CSS Stylesheets -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="stylesheet" href="css/shopping.css?v=1">
+
+<title>Shopping</title>
+
+</header>
+
+<body>
+
+<div class='outer-div'>
+
+    <table class="page-frame">
+        <colgroup>
+            <col width="70%"><col width="30%">
+        </colgroup>
+        <tbody>
+        <tr>
+            <!-- merchanise side --------------------------------------------------->
+            <td class="merchandise-side">
+                <!-- merchandise list -->
+                <table class="merchandise-table" id="merchandise-table">
+                    <colgroup>
+                        <col width="15%"><col width="80%"><col width="5%">
+                    </colgroup>
+                    <tbody>
+                        <!-- rows of merchandise -->
+        
+                    </tbody>
+
+                </table>
+            </td>
+
+            <!-- shopping cart side --------------------------------------------------->
+            <td class="shopping-cart-side">
+
+                <table class="shopping-cart-table">
+                    <tr class="shopping-cart-header-row"> <!-- Shopping cart header -->
+                        <td colspan="3">
+                            <span class="shopping-cart-big-text">SHOPPING CART</span>     
+                        </td>
+                    </tr>
+
+                    <tr class="shopping-cart-items-section"> <!-- Items section -->
+                        <td colspan="3">
+                            <table id="shopping-cart-items-table">
+                                <tbody>                                                                  
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <tr class="shopping-cart-total-footer"> <!-- Total section -->
+                        <td colspan="2">Total</td>
+                        <td class="shopping-cart-total" id="shopping-cart-total">$0.00</td>
+                    </tr>                    
+
+                    <tr class="shopping-cart-checkout-footer"> <!-- Checkout button section -->
+                        <td colspan="3">
+                            <p class="shopping-cart-big-text" id="checkout-button"><a href="#">CHECKOUT &gt;&gt;&gt;</a></p>
+                        </td>
+                    </tr>                     
+                </table>
+
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<hr />
+
+<script type = "text/javascript" src = "js/shopping.js"></script>
+
+</body>
+
+</html>
